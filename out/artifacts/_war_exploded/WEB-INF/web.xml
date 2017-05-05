@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    
+    <servlet>
+        <servlet-name>upload</servlet-name>
+        <servlet-class>service.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>upload</servlet-name>
+        <url-pattern>/servlet/upFile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>list</servlet-name>
+        <servlet-class>service.ListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>list</servlet-name>
+        <url-pattern>/servlet/list</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>down</servlet-name>
+        <servlet-class>service.DownServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>down</servlet-name>
+        <url-pattern>/servlet/down</url-pattern>
+    </servlet-mapping>
+</web-app>

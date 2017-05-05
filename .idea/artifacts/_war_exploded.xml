@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="文件处理:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="文件处理/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="文件处理" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/文件上传下载/commons-io-2.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/文件上传下载/commons-fileupload-1.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../debugTools/javatools/JSTL/jakarta-taglibs-standard-1.1.2/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../debugTools/javatools/JSTL/jakarta-taglibs-standard-1.1.2/lib/standard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
